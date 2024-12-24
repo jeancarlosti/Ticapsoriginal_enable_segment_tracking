@@ -10,7 +10,7 @@ def mon():
     analytics.write_key = 'YOUR WHITE KEY'
     analytics.oauth_client_id = 'YOUR ANALYTICS CLIENT ID'
     analytics.identify('j5ca137295', {
-        'name': 'Jean Tinoco',
+        'name': 'Jean Carlos',
         'email': 'ticaps@ticapsoriginal.com',
         'created_at': datetime.now()
     })
@@ -20,6 +20,6 @@ def mon():
     analytics.track('j5ca137295', 'Ticapsoriginal Page', {
         'title': 'Ticapsoriginal page',
         'subtitle': 'only one from 24k',
-        'author': 'Jean Tinoco'
+        'author': 'Jean Carlos'
     })
     time.sleep(1.8)
